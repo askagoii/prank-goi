@@ -4,16 +4,21 @@
   }
   
   body {
+    /* background-image: url('gggggg.jpeg'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #190d18;
     margin: 0;
     min-height: 100vh;
     font-family: Georgia, serif;
     color: white;
     background:
       linear-gradient(#0005, #0009),
-      url("preview.jpg") center / cover fixed;
+      url("gggggg.jpeg") center / cover fixed;
   }
   
-  .hero {
+  /* .hero {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -21,6 +26,16 @@
     justify-content: center;
     text-align: center;
     padding: 24px;
+  } */
+  .hero {
+    min-height: 100vh;
+    min-height: 100svh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 24px 18px;
   }
   
   h1 {
